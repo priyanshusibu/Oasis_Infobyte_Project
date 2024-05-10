@@ -1,6 +1,8 @@
+/** This is my internship 1st Project**/
+/*Online Reservation System */
+
 import java.util.*;
 import java.sql.*;
-import java.io.*;
 import java.sql.Date;
 class Login
 {
@@ -15,24 +17,10 @@ class Login
     Login()
     {
         Scanner sc=new Scanner(System.in);
-        Console console = System.console();
         System.out.print("Enter the User Name :");
         this.username=sc.nextLine();
-        System.out.println("-:Enter 1 for hiding password 1 and 0 for not:-");
-        int a=sc.nextInt();
-        if (a==1) {
-            char[] password = console.readPassword("Enter your password: ");
-            if(password.length==0)
-            {
-                System.out.println("Entered password is empty ");
-                System.exit(0);
-            }
-            this.password=String.valueOf(password);
-        }else
-        {
-            this.password=sc.nextLine();
-        }
-       
+        System.out.print("-:Enter Password:");
+        this.password=sc.nextLine();
         System.out.println();
     }
 }
@@ -61,9 +49,9 @@ class PNR_Record
         System.out.println("Enter date of journey [Date shound be in: YYYY-MM-DD ] :");
         String temp=sc.nextLine();
         journeyDate=Date.valueOf(temp);
-        System.out.println("Enter date source:");
+        System.out.println("Enter Journey Starion:");
         from=sc.nextLine();
-        System.out.println("Enter Destination:");
+        System.out.println("Enter Destination Station:");
         to=sc.nextLine();   
     }
     public String getClassType() {
@@ -177,7 +165,7 @@ public class Reservation {
                       synchronized(login)
                         {
                             try {
-                            System.out.println("entered");
+                            System.out.println("------Table------");
                             PreparedStatement preparedStatement = con.prepareStatement(ShowQuery);
                             ResultSet rs = preparedStatement.executeQuery();
                             while(rs.next())
@@ -198,7 +186,7 @@ public class Reservation {
                 }
             }
         } catch (Exception e) {
-           System.out.println("Enter Wrong Password ");
+           System.out.println("Enterd wrong Password ");
            e.printStackTrace();
         }
     }
