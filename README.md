@@ -1,6 +1,6 @@
 <h2>
    This Repo Contain the task of my Oasis Infobyte Internship projects.
-  <h2>Task1 : Online Reservation System</h2>
+  <h1>Task1 : Online Reservation System</h1>
 </h2>
 <div>
   <p>
