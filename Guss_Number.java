@@ -25,21 +25,21 @@ public class Guss_Number {
         int num,choice=0;
         int guss = random.nextInt(max - min + 1) + min;
         int round=1;
-        System.out.println("--You have only 10 rounds for gussig the number--");
+        System.out.println("--You have only 10 rounds for guessing the number--");
        do{
            int nguss=0;
         do {
-            System.out.println("Enter your guss:");
+            System.out.println("Enter your guess:");
             num=new Scanner(System.in).nextInt();
             if (guss>num) {
-                System.out.println("Enter a big number: ");
+                System.out.println("Too low ");
             }else if(num>guss)
             {
-                System.out.println("Enter a small numer");
+                System.out.println("Too high");
             }
             else
             {
-                System.out.println("You guss the number");
+                System.out.println("Congrats you guess the number.");
             }
             nguss=nguss+10;
             if (nguss==100) {
@@ -48,9 +48,9 @@ public class Guss_Number {
             } while (num!=guss);
             if (num==guss) {
              System.out.println("---GAME COMPLETE---");
-             System.out.println("You Guss the number in "+nguss/10+" steps in round :"+round);
+             System.out.println("You Guess the number in "+nguss/10+" steps in round :"+round);
              System.out.println("Your score is "+nguss+" out of 100");
-             System.out.println("You got "+Number.returnPoints(nguss)+" points.");
+             System.out.println("You got "+Guss_Number.returnPoints(nguss)+" points.");
              break;
             }else
             {
