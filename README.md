@@ -33,9 +33,9 @@ Upon running the program, you will be get to choose an option: Insert a new rese
       Whether you're playing solo to sharpen your skills or challenging friends to a battle of wits, Guess the Number promises endless fun and mental stimulation. Get ready to embark on an unforgettable guessing adventure!<br>
 
 🎯 Key Features:<br>
-Simple yet addictive gameplay
-Intuitive score and points system
-Compete with friends and family
-Get more rounds to solve
+Simple yet addictive gameplay<br>
+Intuitive score and points system<br>
+Compete with friends and family<br>
+Get more rounds to solve<br>
    </h4>
 </div>
