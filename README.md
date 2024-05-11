@@ -25,3 +25,18 @@ Upon running the program, you will be get to choose an option: Insert a new rese
 </h4>
   </p>
 </div>
+
+<div>
+   <h1>Task 2</h1><br>
+   <h1>Guess the Number Game! 🎮</h1>
+   <h3>You can play this game by going to my Guss_Number.java class </h3>
+   <h4>
+      Whether you're playing solo to sharpen your skills or challenging friends to a battle of wits, Guess the Number promises endless fun and mental stimulation. Get ready to embark on an unforgettable guessing adventure!<br>
+
+🎯 Key Features:<br>
+Simple yet addictive gameplay
+Intuitive score and points system
+Compete with friends and family
+Get more rounds to solve
+   </h4>
+</div>
