@@ -39,3 +39,26 @@ Compete with friends and family<br>
 Get more rounds to solve<br>
    </h4>
 </div>
+
+
+<div>
+   <h1>Task 3:Conole BBaed Application |: ATM interface </h1><br>
+   <h4>
+      An ATM (Automated Teller Machine) console-based application using Java typically involves simulating the functionality of a real-world ATM through a command-line interface. Here's a summary of what such an application might entail:
+
+User Authentication: The application prompts the user to enter their credentials, such as a username and PIN (Personal Identification Number), to access their account. This ensures security and prevents unauthorized access.
+
+Main Menu: After successful authentication, the application displays a main menu with various options for the user to choose from. These options typically include functionalities like checking an account balance, making withdrawals, depositing funds, transferring money between accounts, and exiting the application.
+
+Account Information: Users can inquire about their account balance to check how much money they have available. This information is retrieved from a database or simulated data structure that stores user account details.
+
+Cash Withdrawal: Users can withdraw cash from their account by specifying the amount they wish to withdraw. The application then verifies if the withdrawal amount is within the account balance and dispenses the requested cash if the conditions are met.
+
+Cash Deposit: Users can deposit cash into their account by specifying the amount they want to deposit. The application updates the account balance accordingly after the deposit is made.
+
+Transfer Funds: Users can transfer funds between accounts, either their own accounts or to another user's account within the system. They specify the recipient account and the amount to transfer, and the application handles the transaction accordingly.
+
+Transaction History: The application may offer an option for users to view their transaction history, listing details such as date, time, transaction type (withdrawal, deposit, transfer), and transaction amount.
+   </h4>
+</div>
+
