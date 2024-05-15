@@ -42,7 +42,7 @@ Get more rounds to solve<br>
 
 
 <div>
-   <h1>Task 3:Conole BBaed Application |: ATM interface </h1><br>
+   <h1>Task 3:Conole Based Application : ATM interface </h1><br>
    <h4>
       An ATM (Automated Teller Machine) console-based application using Java typically involves simulating the functionality of a real-world ATM through a command-line interface. Here's a summary of what such an application might entail:
 
